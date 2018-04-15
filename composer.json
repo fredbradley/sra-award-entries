@@ -1,0 +1,18 @@
+{
+    "name": "fredbradley/sra-award-entries",
+    "authors": [
+        {
+            "name": "Fred Bradley",
+            "email": "hello@fredbradley.co.uk"
+        }
+    ],
+"autoload": {
+        "psr-4": {
+          "StudentRadio\\AwardWinners\\": "src"
+        }
+  },
+    "require": {
+        "jjgrainger/posttypes": "^2.0",
+        "rilwis/meta-box": "^4.14"
+    }
+}
